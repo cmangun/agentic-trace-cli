@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["crates/agentic-trace", "crates/agentic-trace-cli"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/cmangun/agentic-trace-cli"

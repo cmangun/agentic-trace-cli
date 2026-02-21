@@ -1,0 +1,15 @@
+[package]
+name = "agentic-trace-cli"
+version.workspace = true
+edition.workspace = true
+description = "CLI for creating, signing, verifying, and exporting agent traces"
+
+[[bin]]
+name = "agentic-trace"
+path = "src/main.rs"
+
+[dependencies]
+agentic-trace = { path = "../agentic-trace" }
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+serde_json = "1"

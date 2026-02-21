@@ -1,0 +1,1 @@
+{"event_id":"a1b2c3d4-0001-4000-8000-000000000001","event_type":"tool_call","timestamp":"2025-01-15T10:00:00Z","sequence":0,"payload":{"tool":"search","input":{"query":"metformin dosage"}}}
