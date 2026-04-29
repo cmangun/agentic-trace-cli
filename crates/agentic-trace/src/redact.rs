@@ -1,5 +1,5 @@
 use serde_json::Value;
-use sha2::{Sha256, Digest};
+use sha2::{Digest, Sha256};
 
 pub fn redact_field(value: &Value, reason: &str) -> Value {
     let hash = Sha256::digest(serde_json::to_string(value).unwrap().as_bytes());
