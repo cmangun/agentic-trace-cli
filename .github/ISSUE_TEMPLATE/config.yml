@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suite-level questions
+    url: https://github.com/cmangun/agentic-evidence
+    about: For questions that span multiple components, start at the meta-repo and consult REFERENCE-ARCHITECTURE.md, INTEROP.md, and GLOSSARY.md.
+  - name: Security disclosure
+    url: https://github.com/cmangun/agentic-evidence/blob/main/SECURITY.md
+    about: For security issues, follow the private disclosure process — do not file a public issue.
