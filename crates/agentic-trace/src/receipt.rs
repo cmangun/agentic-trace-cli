@@ -28,7 +28,12 @@ pub struct Receipt {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum EventType {
-    ToolCall, ModelInference, ArtifactWrite, Approval, PolicyDecision, Error,
+    ToolCall,
+    ModelInference,
+    ArtifactWrite,
+    Approval,
+    PolicyDecision,
+    Error,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

@@ -5,7 +5,8 @@ pub fn canonicalize(value: &Value) -> String {
         Value::Object(map) => {
             let mut sorted: Vec<_> = map.iter().collect();
             sorted.sort_by_key(|(k, _)| k.clone());
-            let entries: Vec<String> = sorted.into_iter()
+            let entries: Vec<String> = sorted
+                .into_iter()
                 .map(|(k, v)| format!("{}:{}", serde_json::to_string(k).unwrap(), canonicalize(v)))
                 .collect();
             format!("{{{}}}", entries.join(","))

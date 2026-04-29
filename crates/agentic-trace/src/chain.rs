@@ -1,6 +1,6 @@
-use sha2::{Sha256, Digest};
 use crate::canonicalize::canonicalize;
 use crate::receipt::TraceEvent;
+use sha2::{Digest, Sha256};
 
 pub fn compute_hash(event: &TraceEvent, prev_hash: &str) -> String {
     let canonical = canonicalize(&serde_json::to_value(event).unwrap());
