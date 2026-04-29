@@ -1,0 +1,8 @@
+# CODEOWNERS — v0.1 single-owner stance.
+#
+# This is a deliberate v0.1 choice, not a gap: until a contributor-onboarding
+# pathway exists in v1.0, every PR is reviewed by the suite owner. Multi-owner
+# roll-out (per-component domain ownership) lands with v1.0 contributor
+# documentation; see ROADMAP.md for the v1.0 milestone.
+
+* @cmangun
