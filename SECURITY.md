@@ -13,7 +13,7 @@ Per [VERSIONING.md](https://github.com/cmangun/agentic-evidence/blob/main/VERSIO
 
 ## Reporting a vulnerability
 
-Email **cmangun@gmail.com** with the subject line `[security] <component> <one-line summary>`. Do not open a public issue — the issue tracker is for non-sensitive defects only.
+Email **[cmangun@gmail.com](mailto:cmangun@gmail.com)** with the subject line `[security] <component> <one-line summary>`. Do not open a public issue — the issue tracker is for non-sensitive defects only.
 
 Please include:
 
